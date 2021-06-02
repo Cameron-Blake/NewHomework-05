@@ -11,12 +11,9 @@ window.onload = function(){
     fivePM();
    }
     
-  var currentDay = moment().format("dddd LL");
+  var currentDay = moment().format("dddd, MMMM Do");
   $("#currentDay").append(currentDay);
-  
-  var currentTime = moment().format("LT");
-  $("#currentTime").append(currentTime);
-  
+    
   
   var now = new Date().getHours();
   
